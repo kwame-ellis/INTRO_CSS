@@ -66,7 +66,50 @@ header {
     margin: 0;
 
 }
- section {
+ 
+nav {
+    border-bottom: 2px solid  #a61f11;
+    border-top: 2px solid #da0090;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #73352e;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background: black;
+    color: #84de37;
+}
+
+article {
+    margin: 2rem;
+}
+
+article img {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+}
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
     border-bottom: #da0090;
     margin-bottom: 0.3rem;
 }
