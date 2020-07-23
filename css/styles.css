@@ -24,6 +24,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/*created wrapper for blog page*/
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -34,6 +35,37 @@ a:hover {
     color: #89A611;
 }
 
+/* created header for blog page */
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.leftheader {
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: 0.5rem;
+
+}
+
+.rightheader {
+    flex-basis: 60%;
+    margin-top: 3.75rem;
+    margin-left: 0.5rem;
+
+}
+
+.rightheader h1 {
+    margin: 0;
+    color: #da0090;
+    font-size: 3rem;
+}
+
+.rightheader p {
+    margin: 0;
+
+}
  section {
     border-bottom: #da0090;
     margin-bottom: 0.3rem;
